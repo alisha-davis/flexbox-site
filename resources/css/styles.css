@@ -1,0 +1,145 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+}
+
+nav {
+    width: 100%;
+    min-height: 69px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+nav ul {
+    margin: 0;
+}
+
+#logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+#nav-bar {
+    z-index: 1;
+    background-color: black;
+}
+
+main {
+    opacity: 0.9;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+h4, h5 {
+    margin: 10px 0;
+}
+
+section {
+    padding-top: 90px;
+}
+
+#mission {
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/img-mission-background.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+}
+
+#mission .banner {
+    width: 100%;
+    background-color: black;
+}
+
+#featured-tea {
+    margin: auto;
+    width: 85%;
+}
+
+#featured-tea img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+#featured-tea .container {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#featured-tea .cards {
+    padding: 10px 20px;
+}
+
+#locations-box {
+    min-height: 500px;
+    width: 100%;
+    background-image: url("../images/img-locations-background.jpg");
+    background-size: cover;
+    background-position: 60% 20%;
+    padding: 15px 0;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#locations .container {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+#locations .cards {
+    opacity: 1;
+    background-color: black;
+    border: 1px solid seashell;
+    width: 300px;
+    margin: 10px 20px;
+}
+
+#contact {
+    min-height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: seashell;
+}
+
+footer {
+    text-align: left;
+    padding: 20px;
+}
